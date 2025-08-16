@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CICLOÓTICA - Óculos Sustentáveis com Entrega Ecológica</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">👓</span>
+            <span>CICLOÓTICA</span>
+        </div>
+        
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="#produtos" class="nav-link">Óculos</a>
+            <a href="lentes.html" class="nav-link">Lentes</a>
+            <a href="sobre.html" class="nav-link">Sobre</a>
+            <a href="contato.html" class="nav-link">Contato</a>
+        </nav>
+        
+        <div class="user-actions">
+            <button class="wishlist-icon">♥</button>
+            <div class="cart-icon">
+                🛒
+                <span class="cart-count">0</span>
+                <div class="cart-dropdown">
+                    <div class="cart-header">
+                        <div class="cart-title">Seu Carrinho</div>
+                        <button class="close-cart">×</button>
+                    </div>
+                    <div class="cart-items">
+                        <!-- Itens do carrinho serão adicionados aqui dinamicamente -->
+                    </div>
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span>R$ 0,00</span>
+                    </div>
+                    <div class="cart-actions">
+                        <a href="#" class="btn-view-cart">Ver Carrinho</a>
+                        <a href="#" class="btn-checkout">Finalizar Compra</a>
+                    </div>
+                </div>
+            </div>
+            <button class="user-icon" id="login-btn">👤</button>
+        </div>
+    </header>
+    
+    <!-- Banner Hero -->
+    <section class="hero">
+        <h1 class="hero-title">Visão Sustentável, Entrega Ecológica</h1>
+        <p class="hero-subtitle">Encontre os óculos perfeitos com a consciência tranquila. Nossas entregas são feitas de bicicleta para reduzir o impacto ambiental.</p>
+        <button class="btn btn-primary">Ver Coleção</button>
+    </section>
+    
+    <!-- Filtros -->
+    <section class="filter-section" id="produtos">
+        <h2 class="section-title">Nossos Óculos</h2>
+        
+        <div class="filter-tags">
+            <h3>Marcas:</h3>
+            <span class="filter-tag">Ana Hickmann</span>
+            <span class="filter-tag">Bulget</span>
+            <span class="filter-tag">Emporio Armani</span>
+            <span class="filter-tag">Guess</span>
+            <span class="filter-tag">Lacoste</span>
+            <span class="filter-tag">Ray Ban</span>
+            <span class="filter-tag active">Todas as Marcas</span>
+        </div>
+        
+        <div class="filter-tags">
+            <h3>Categoria:</h3>
+            <span class="filter-tag">Masculino</span>
+            <span class="filter-tag">Feminino</span>
+            <span class="filter-tag">Infantil</span>
+            <span class="filter-tag">Unissex</span>
+        </div>
+        
+        <div class="filter-tags">
+            <h3>Formato:</h3>
+            <span class="filter-tag">Aviador</span>
+            <span class="filter-tag">Gatinho</span>
+            <span class="filter-tag">Hexagonal</span>
+            <span class="filter-tag">Oval</span>
+            <span class="filter-tag">Quadrado</span>
+            <span class="filter-tag">Redondo</span>
+            <span class="filter-tag">Retangular</span>
+            <span class="filter-tag">Geométrico</span>
+        </div>
+        
+        <div class="filter-tags">
+            <h3>Material:</h3>
+            <span class="filter-tag">Acetato</span>
+            <span class="filter-tag">Metal</span>
+            <span class="filter-tag">Híbrido</span>
+        </div>
+    </section>
+    
+    <!-- Grade de Produtos -->
+    <section class="products-grid">
+        <!-- Produto 1 -->
+        <a href="products/aviador-classic.html" class="product-card">
+            <img src="assets/images/products/oculos1.jpg" alt="Óculos Ray Ban" class="product-image">
+            <div class="product-info">
+                <div class="product-brand">Ray Ban</div>
+                <h3 class="product-name">Aviador Classic</h3>
+                <div class="product-price">R$ 899,90</div>
+                <div class="product-actions">
+                    <button class="btn-add-to-cart">Adicionar</button>
+                    <button class="wishlist-btn">♥</button>
+                </div>
+            </div>
+        </a>
+        
+        <!-- Produto 2 -->
+        <a href="products/gatinho-premium.html" class="product-card">
+            <img src="assets/images/products/oculos2.jpg" alt="Óculos Ana Hickmann" class="product-image">
+            <div class="product-info">
+                <div class="product-brand">Ana Hickmann</div>
+                <h3 class="product-name">Gatinho Premium</h3>
+                <div class="product-price">R$ 759,90</div>
+                <div class="product-actions">
+                    <button class="btn-add-to-cart">Adicionar</button>
+                    <button class="wishlist-btn">♥</button>
+                </div>
+            </div>
+        </a>
+        
+        <!-- Outros produtos... -->
+    </section>
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">CICLOÓTICA</div>
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Início</a>
+                <a href="#produtos" class="footer-link">Produtos</a>
+                <a href="sobre.html" class="footer-link">Sobre Nós</a>
+                <a href="contato.html" class="footer-link">Contato</a>
+                <a href="#" class="footer-link">Política de Privacidade</a>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">📱</a>
+                <a href="#" class="social-icon">📘</a>
+                <a href="#" class="social-icon">📸</a>
+                <a href="#" class="social-icon">🐦</a>
+            </div>
+            <div class="copyright">
+                © 2023 CICLOÓTICA - Todos os direitos reservados. Entrega sustentável por bicicleta.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modal de Login -->
+    <div class="login-modal" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Entrar</h2>
+                <button class="close-modal" id="close-modal">×</button>
+            </div>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" id="email" class="form-input" placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Senha</label>
+                    <input type="password" id="password" class="form-input" placeholder="Sua senha">
+                </div>
+                <button type="submit" class="btn btn-login">Entrar</button>
+                <div class="login-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-text">ou</div>
+                    <div class="divider-line"></div>
+                </div>
+                <div id="g_id_onload"
+                    data-client_id="SEU_CLIENT_ID_GOOGLE_AQUI"
+                    data-login_uri="https://seu-site.com/auth/google/callback"
+                    data-auto_prompt="false">
+                </div>
+                <div class="g_id_signin"
+                    data-type="standard"
+                    data-size="large"
+                    data-theme="outline"
+                    data-text="sign_in_with"
+                    data-shape="rectangular"
+                    data-logo_alignment="left">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/auth.js"></script>
+</body>
+</html>
